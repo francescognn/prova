@@ -2,7 +2,7 @@
 #include <EEPROM.h>
 
 SoftwareSerial SIM800L(8, 7);
-//\
+//
 float getVoltage(int);
  
 String lastLine="";
